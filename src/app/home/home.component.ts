@@ -1,5 +1,5 @@
-import { ScullyRoutesService } from "@scullyio/ng-lib";
-import { Observable } from "rxjs";
+import { ScullyRoutesService } from '@scullyio/ng-lib';
+import { Observable } from 'rxjs';
 
 @Component()
 //...

@@ -1,7 +1,12 @@
 import { ScullyRoutesService } from "@scullyio/ng-lib";
 import { Observable } from "rxjs";
+import { OnInit, Component } from '@angular/core';
 
-@Component()
+@Component({
+  selector: 'app-home-component',
+  templateUrl: './home.component.html',
+  styleUrls: []
+})
 //...
 export class HomeComponent implements OnInit {
   links$: Observable<any> = this.scully.available$;

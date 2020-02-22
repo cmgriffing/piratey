@@ -7,7 +7,7 @@ import { OnInit, Component } from '@angular/core';
   templateUrl: './home.component.html',
   styleUrls: []
 })
-//...
+// ...
 export class HomeComponent implements OnInit {
   links$: Observable<any> = this.scully.available$;
 

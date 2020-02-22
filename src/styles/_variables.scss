@@ -1,0 +1,32 @@
+// Visual Color Names
+$dark-blue: #0e4e99;
+$medium-blue: #50789e;
+$cloud-blue: #e0e8f1;
+$bright-blue: #8bddfd;
+
+$medium-green: #477933;
+$dark-green: #344d22;
+
+$dark-brown: #5e2b16;
+$medium-brown: #7a623f;
+$sand: #aaaa8b;
+$rock: #5f5b56;
+$dark-rock: #21201d;
+
+$yellow: #a68b16;
+$red: #a03424;
+
+// Semantic Color Names
+// (these should be used more often than Visual color names)
+$primary-color: $dark-blue;
+$secondary-color: $cloud-blue;
+
+$dark-bg: $dark-blue;
+$light-bg: $cloud-blue;
+
+$light-text: $cloud-blue;
+$dark-text: $dark-rock;
+
+$warning: $yellow;
+$error: $red;
+$accent: $medium-green;

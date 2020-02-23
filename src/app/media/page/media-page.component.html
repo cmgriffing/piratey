@@ -1,0 +1,4 @@
+<h1>Media Page</h1>
+<div *ngFor="let mediaPost of mediaPosts">
+  <a [routerLink]="mediaPost.route">{{ mediaPost.route }}</a>
+</div>

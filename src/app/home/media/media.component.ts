@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './media.component.html',
   styleUrls: ['./media.component.scss']
 })
-export class MediaComponent implements OnInit {
+export class HomeMediaComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}

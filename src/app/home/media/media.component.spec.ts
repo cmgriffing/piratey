@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MediaComponent } from './media.component';
+import { HomeMediaComponent } from './media.component';
 
-describe('MediaComponent', () => {
-  let component: MediaComponent;
-  let fixture: ComponentFixture<MediaComponent>;
+describe('HomeMediaComponent', () => {
+  let component: HomeMediaComponent;
+  let fixture: ComponentFixture<HomeMediaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [MediaComponent]
+      declarations: [HomeMediaComponent]
     }).compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MediaComponent);
+    fixture = TestBed.createComponent(HomeMediaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

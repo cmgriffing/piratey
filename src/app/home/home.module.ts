@@ -5,7 +5,7 @@ import { HomeComponent } from './home.component';
 import { HeroComponent } from './hero/hero.component';
 import { FeaturesComponent } from './features/features.component';
 import { NewsComponent } from './news/news.component';
-import { MediaComponent } from './media/media.component';
+import { HomeMediaComponent } from './media/media.component';
 import { PurchaseComponent } from './purchase/purchase.component';
 import { ContactComponent } from './contact/contact.component';
 
@@ -15,7 +15,7 @@ import { ContactComponent } from './contact/contact.component';
     HeroComponent,
     FeaturesComponent,
     NewsComponent,
-    MediaComponent,
+    HomeMediaComponent,
     PurchaseComponent,
     ContactComponent
   ],

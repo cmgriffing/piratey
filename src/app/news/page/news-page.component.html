@@ -1,0 +1,4 @@
+<h1>News Page</h1>
+<div *ngFor="let newsPost of newsPosts">
+  <a [routerLink]="newsPost.route">{{ newsPost.route }}</a>
+</div>

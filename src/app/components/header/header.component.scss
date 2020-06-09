@@ -24,22 +24,22 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-		font-size: 24px;
+    font-size: 24px;
 
     &:after {
-			content: '';
+      content: '';
       position: absolute;
       bottom: 0px;
       left: 50%;
       transform: translateX(-50%);
       width: 0;
-			border-bottom: 1px solid $primary-color;
-			transition: width ease-out 100ms;
+      border-bottom: 1px solid $primary-color;
+      transition: width ease-out 100ms;
     }
 
     &:hover:after {
-			content: '';
-			width: 60%;
+      content: '';
+      width: 60%;
     }
 
     &.active {
@@ -51,7 +51,7 @@
         transform: translateX(-50%);
         width: 60%;
         background-color: black;
-			}
+      }
     }
   }
 
@@ -72,7 +72,6 @@
     line-height: 30px;
     color: $yellow;
     background-color: $red;
-		border: 2px solid $yellow;
-		
+    border: 2px solid $yellow;
   }
 }

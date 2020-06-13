@@ -1,0 +1,76 @@
+@import '../../../styles/variables';
+
+:host {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav-list {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .nav-item {
+    position: relative;
+    padding: 0 2rem;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      border-bottom: 1px solid $primary-color;
+      transition: width ease-out 100ms;
+    }
+
+    &:hover:after {
+      content: '';
+      width: 60%;
+    }
+
+    &.active {
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 60%;
+        background-color: black;
+      }
+    }
+  }
+
+  .logo {
+    font-family: $logo-font;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: black;
+  }
+
+  .button {
+    padding: 0.8rem 2.5rem;
+    font-family: $arbutus;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: $yellow;
+    background-color: $red;
+    border: 2px solid $yellow;
+  }
+}
